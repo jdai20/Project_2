@@ -167,7 +167,7 @@ int main(){
 								"Kepler-452", "KOI-94", "Kepler-62", "Kepler-46", "WASP-82" };
                                 
 	//planet radius in jupiter radii							
-    double planetRadius[] = { 0.091135, 0.0475, 1.289, 1.19, 0.699, 0.145, 0.585, 0.144, 0.808, 0.999 };
+    	double planetRadius[] = { 0.091135, 0.0475, 1.289, 1.19, 0.699, 0.145, 0.585, 0.144, 0.808, 0.999 };
     
 	//planet orbital period in days
 	double planetOrbitalPeriod[] = { 365.25, 687.0, 2.77596, 3.2588321, 2.9895932, 
@@ -210,7 +210,7 @@ int main(){
 	printf("Planet distances to their stars (in AU):\n");
 	printData(distanceToStar, 10);
 	//prints planet radius in miles
-    printf("Planet radii (in miles):\n");
+    	printf("Planet radii (in miles):\n");
 	printData(planetRadiusInMiles, 10);
 	
 	//prints histogram of planets grouped by their radius in miles
